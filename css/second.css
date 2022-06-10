@@ -1,0 +1,49 @@
+
+
+body {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.first-section {
+    height: 100px;
+    justify-content: space-between;
+}
+
+.first-section .menus {
+    height: 60px;
+}
+
+
+.second-section {
+    height: 300px;
+}
+
+.mid-section {
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.last-section {
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background: black;
+}
