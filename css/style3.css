@@ -1,0 +1,34 @@
+.body_container {
+    width: 1000px;
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+}
+.left-side-box {
+    width: 200px;
+    height: 650px;
+}
+.right-side-box {
+    width: 800px;
+    height: 650px;
+}
+.right-side-box .slide {
+    height: 350px;
+}
+.right-side-box .content {
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.right-side-box .copyright {
+    height: 100px;
+    display: flex;
+}
+.copyright-child1 {
+    width: 600px;
+    height: 100px;
+}
+.copyright-child2 {
+    width: 200px;
+    height: 100px;
+}
